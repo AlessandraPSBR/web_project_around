@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  max-width: 880px;
+  width: 100%;
+  border: 1px;
+  margin: 45px 200px auto;
+}
+
+.header__vector {
+  justify-content: center;
+}
