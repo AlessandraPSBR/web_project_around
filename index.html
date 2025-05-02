@@ -53,14 +53,14 @@
               alt="Imagem do Vale Yosemite"
               class="element__image"
             />
-            <h2 class="element__place">Vale de Yosemite</h2>
-            <button class="element__like" aria-label="Botão like" type="button">
-              <img
-                src="./images/Group.png"
-                alt="Coração like"
-                class="element__like-image"
-              />
-            </button>
+            <div class="element__places">
+              <p class="element__place">Vale de Yosemite</p>
+              <button
+                class="element__like"
+                aria-label="Botão like"
+                type="button"
+              ></button>
+            </div>
           </div>
 
           <div class="element__card">
@@ -69,30 +69,42 @@
               alt="Imagem do Lago Louise"
               class="element__image"
             />
-            <h2 class="element__place">Lago Louise</h2>
-            <button class="element__like" aria-label="Botão like" type="button">
-              <img
-                src="./images/Group.png"
-                alt="Coração like"
-                class="element__like-image"
-              />
-            </button>
+            <div class="element__places">
+              <p class="element__place">Lago Louise</p>
+              <button
+                class="element__like"
+                aria-label="Botão like"
+                type="button"
+              >
+                <img
+                  src="./images/Group.png"
+                  alt="Coração like"
+                  class="element__like-image"
+                />
+              </button>
+            </div>
           </div>
 
           <div class="element__card">
             <img
               src="./images/kirill-pershin-montanha-care.png"
-              alt="Imagem da Montanha Care"
+              alt="Imagem da Montanha Carecas"
               class="element__image"
             />
-            <h2 class="element__place">Montanhas Care...</h2>
-            <button class="element__like" aria-label="Botão like" type="button">
-              <img
-                src="./images/Group.png"
-                alt="Coração like"
-                class="element__like-image"
-              />
-            </button>
+            <div class="element__places">
+              <p class="element__place">Montanhas Carecas</p>
+              <button
+                class="element__like"
+                aria-label="Botão like"
+                type="button"
+              >
+                <img
+                  src="./images/Group.png"
+                  alt="Coração like"
+                  class="element__like-image"
+                />
+              </button>
+            </div>
           </div>
 
           <div class="element__card">
@@ -101,30 +113,42 @@
               alt="Imagem da Montanha Latemar"
               class="element__image"
             />
-            <h2 class="element__place">Latemar</h2>
-            <button class="element__like" aria-label="Botão like" type="button">
-              <img
-                src="./images/Group.png"
-                alt="Coração like"
-                class="element__like-image"
-              />
-            </button>
+            <div class="element__places">
+              <p class="element__place">Latemar</p>
+              <button
+                class="element__like"
+                aria-label="Botão like"
+                type="button"
+              >
+                <img
+                  src="./images/Group.png"
+                  alt="Coração like"
+                  class="element__like-image"
+                />
+              </button>
+            </div>
           </div>
 
           <div class="element__card">
             <img
               src="./images/kirill-pershin-parque-nacional.png"
-              alt="Imagem da Montanha Parque nacional"
+              alt="Imagem da Montanha Parque Nacional Vanoise"
               class="element__image"
             />
-            <h2 class="element__place">Parque Nacional...</h2>
-            <button class="element__like" aria-label="Botão like" type="button">
-              <img
-                src="./images/Group.png"
-                alt="Coração like"
-                class="element__like-image"
-              />
-            </button>
+            <div class="element__places">
+              <p class="element__place">Parque Nacional da Vanoise</p>
+              <button
+                class="element__like"
+                aria-label="Botão like"
+                type="button"
+              >
+                <img
+                  src="./images/Group.png"
+                  alt="Coração like"
+                  class="element__like-image"
+                />
+              </button>
+            </div>
           </div>
 
           <div class="element__card">
@@ -133,14 +157,20 @@
               alt="Imagem do Lago Di Braies"
               class="element__image"
             />
-            <h2 class="element__place">Lago di Braies</h2>
-            <button class="element__like" aria-label="Botão like" type="button">
-              <img
-                src="./images/Group.png"
-                alt="Coração like"
-                class="element__like-image"
-              />
-            </button>
+            <div class="element__places">
+              <p class="element__place">Lago di Braies</p>
+              <button
+                class="element__like"
+                aria-label="Botão like"
+                type="button"
+              >
+                <img
+                  src="./images/Group.png"
+                  alt="Coração like"
+                  class="element__like-image"
+                />
+              </button>
+            </div>
           </div>
         </section>
       </main>
@@ -148,6 +178,29 @@
         <p class="footer__copyright">&copy; 2025 Around The U.S.</p>
       </footer>
     </div>
+
+    <div class="pop-up" id="edit-pop-up">
+      <div class="pop-up__container">
+        <button class="pop-up__close" aria-label="Fechar"></button>
+        <h2 class="pop-up__title">Editar perfil</h2>
+        <form class="pop-up__form">
+          <input
+            type="text"
+            class="pop-up__input"
+            name="name"
+            placeholder="Jacques Cousteau"
+            required
+          />
+          <input
+            type="text"
+            class="pop-up__input"
+            name="role"
+            placeholder="Explorador"
+            required
+          />
+          <button type="submit" class="pop-up__submit">Salvar</button>
+        </form>
+      </div>
     <script src="./scripts/index.js"></script>
   </body>
 </html>
