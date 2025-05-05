@@ -11,7 +11,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /*display: none;*/
+  display: none;
 }
 
 .pop-up__container {
@@ -74,4 +74,16 @@
 
 .pop-up__submit:hover {
   opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+  .pop-up__container {
+    width: 90%;
+    padding: 24px;
+  }
+
+  .pop-up__title {
+    width: 100%;
+    font-size: 20px;
+  }
 }

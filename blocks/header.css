@@ -1,11 +1,35 @@
 .header {
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   max-width: 880px;
   width: 100%;
-  border: 1px;
-  margin: 45px 200px auto;
+  margin: auto;
+  padding-top: 45px;
 }
 
 .header__vector {
-  justify-content: center;
+  width: 173px;
+  height: 33px;
+
+  margin-bottom: 41px;
+}
+.header__line {
+  width: 880px;
+}
+
+@media (max-width: 1024px) {
+  .header__vector {
+    padding-left: 27px;
+  }
+}
+
+@media (max-width: 544px) {
+  .header {
+    padding-top: 28px;
+  }
+  .header__vector {
+    width: 126px;
+    height: 24px;
+  }
 }

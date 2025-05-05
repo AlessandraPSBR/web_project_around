@@ -11,6 +11,7 @@
 .profile__avatar {
   width: 120px;
   height: 120px;
+  margin: auto;
 }
 
 .profile {
@@ -67,7 +68,7 @@
   width: 150px;
   height: 50px;
   background-color: transparent;
-  background-image: url("../images/Add\ Button.png");
+  background-image: url("../images/Add\ Button\ desk.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -79,4 +80,57 @@
 
 .profile__add:hover {
   opacity: 0.6;
+}
+
+@media (max-width: 1024px) {
+  .content__profile {
+    margin: 40px auto;
+  }
+  .profile__avatar {
+    margin: 0 0 30px 0;
+  }
+}
+@media (max-width: 544px) {
+  .content__profile {
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto 50px;
+    width: 282px;
+    height: 286px;
+  }
+
+  .profile__avatar {
+    margin: 0 auto 20px;
+    width: 120px;
+    height: 120px;
+  }
+
+  .profile {
+    width: 100%;
+    max-width: 282px;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .profile__name {
+    font-size: 22px;
+    text-align: center;
+  }
+  .profile__edit {
+    width: 18px;
+    height: 18px;
+  }
+
+  .profile__role {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .profile__add {
+    background-image: url("../images/Add\ Button.png");
+    width: 282px;
+    height: 50px;
+    margin: 20px auto 0;
+    display: block;
+  }
 }
