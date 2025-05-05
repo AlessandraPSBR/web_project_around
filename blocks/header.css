@@ -4,16 +4,15 @@
   justify-content: flex-start;
   max-width: 880px;
   width: 100%;
-  margin: auto;
+  margin: 0 auto;
   padding-top: 45px;
 }
 
 .header__vector {
   width: 173px;
-  height: 33px;
-
   margin-bottom: 41px;
 }
+
 .header__line {
   width: 880px;
 }
